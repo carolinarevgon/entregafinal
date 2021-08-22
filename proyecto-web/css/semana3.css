@@ -1,0 +1,36 @@
+body {
+    background-color: #ffff00;
+}
+div {
+    width: 20%;
+}
+
+.contenido {
+    float: left
+}
+
+.contenido-menu {
+    width: 15%;
+}
+.contenido.texto {
+    width: 60%;
+}
+
+.contenido.texto h1,
+.contenido.texto p {
+    color: #e439e4;
+}
+
+#parrafo-1 {
+    color: #0000ff;
+}
+
+#parrafo-2 {
+    color: #5b2b7a;
+}
+
+.contenido-imagen {
+    width: 24%;
+    float: right;
+    text-align: right;
+}

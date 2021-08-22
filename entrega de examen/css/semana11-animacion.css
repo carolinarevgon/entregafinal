@@ -1,0 +1,28 @@
+.carrusel {
+    width:33.33%;
+    margin:0 auto;
+    text-align: center;
+    background-color: blanchedalmond;
+}
+.img-carrusel {
+    width: 100%;
+    height: 350px;
+    justify-content: center;
+    margin-left: auto;
+    background-repeat: no-repeat;
+    animation-name: carrusel-computadoras;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes carrusel-computadoras {
+    0% {
+        background-image: url(/imagenes/lapto.jpg);
+    }
+    50% {
+        background-image: url(/imagenes/monitor1.jpg);
+    }
+    100% {
+        background-image: url(/imagenes/mouse1.jpg);
+    }
+}

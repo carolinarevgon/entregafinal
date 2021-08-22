@@ -1,0 +1,16 @@
+
+    body{
+        background-color: #0a1e24;
+        background: linear-gradient(90deg,#030b0e,#31b358);
+        color: #31b358;
+    }
+
+    p{
+        color: rgb(125, 219, 231);
+        text-align: justify;
+    }
+
+p img{
+    vertical-align: text-bottom;
+    text-align: left;
+}
